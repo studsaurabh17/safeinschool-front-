@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@400&display=swap");
+/* bootstrap icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-warning {
+  color: #f98012;
+}
+
+.btn-outline-type1 {
+  border: 1px solid #194866 !important;
+  color: #194866;
+}
+
+.btn-outline-type2 {
+  border: 1px solid #ffffff !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-type1:hover,
+.btn-outline-type2:hover {
+  background: #f98012 !important;
+  transform: scale(1.01);
+}
+
+.nav-item {
+  margin-left: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.heroHeading {
+  font-size: 4rem;
+}
+
+.heroSubHeading {
+  font-size: 3.6rem;
+}
+.DMserif{
+  font-family: DM Serif Display;
+  color: #194866
+}
+
+.meditateImg {
+  transition: 0.7s;
+}
+
+.imageContainer:hover .meditateImg {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+.playbtn {
+  font-size: 3rem !important;
+  position: relative;
+  margin-top: -700px;
+  left: 35%;
+  z-index: 10;
+  background: rgb(241, 205, 107);
+}
+
+.section2 {
+  background: linear-gradient(to right,
+      #0e263a,
+      #0e263a,
+      #0e263ace,
+      rgba(255, 255, 255, 0.074)),
+    url("./images/05-moodle4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.product {
+  background: linear-gradient(rgba(0, 0, 0, 0.651),
+      rgba(0, 0, 0, 0.571),
+      rgba(87, 87, 87, 0.4),
+      rgba(255, 255, 255, 0.151),
+      rgba(255, 255, 255, 0.05)),
+    url("./images/03-home-card-2-600x590.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+  min-height: 550px;
+}
+
+.product:hover {
+  box-shadow: 2px 2px 10px gray;
+}
+
+.section4Card {
+  background: linear-gradient(rgba(0, 0, 0, 0.651),
+      rgba(0, 0, 0, 0.571),
+      rgba(87, 87, 87, 0.4),
+      rgba(255, 255, 255, 0.151),
+      rgba(255, 255, 255, 0.05)),
+    url("./images/03-Azadi-92-2-min-600x764.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+  min-height: 400px;
+}
+
+.section4Card:hover {
+  box-shadow: 2px 2px 10px gray;
+}
+
+.hoverableText {
+  color: rgb(239, 237, 233) !important;
+}
+
+.hoverableText :hover {
+  color: orange !important;
+}
+
+.quality {
+  background-color: aliceblue;
+}
+
+.section7Card1 {
+  background: #194866 url("./images/2-col-cta-left.svg") no-repeat right top;
+}
+
+.section7Card2 {
+  background: #fedfc1 url("./images/2-col-cta-right.svg") no-repeat right top;
+}
+
+.home-testimonial {
+  background: #194866 url(./images/home-testimonials.svg) no-repeat right bottom;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .heroHeading {
+    font-size: 2rem;
+  }
+
+  .heroSubHeading {
+    font-size: 2rem;
+  }
+
+  .playbtn {
+    margin-top: -400px;
+    left: 40%;
+  }
+}
